@@ -1,7 +1,9 @@
+import {Hero, NavBar} from "./components/index"
 const Landing = () => {
   return ( 
-    <div>
-      The Tasks Dev
+    <div className="landing">
+      <NavBar />
+      {/* <Hero /> */}
     </div> 
     );
 }

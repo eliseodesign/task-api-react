@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import  inputSore  from "../../../utils/store/inputStore";
 
 const Form = () => {
@@ -11,13 +10,10 @@ const Form = () => {
   }
 
   function handleInput(e){
-    // console.log(e.target.name)
-    // console.log(e.target.value)
     setInput(
       e.target.name,
       e.target.value
     )
-    console.log(title, content, important)
   }
   function handleCheck(e){
     setInput(

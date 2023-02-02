@@ -5,7 +5,6 @@ const Menu = () => {
 
   const [menu, setMenu] = useState(false)
   const { modalMenu } = useTasks()
-  // console.log(modalMenu)
   const handleClick = () => {
     setMenu(!menu)
     document.getElementById(modalMenu).classList.toggle("active")

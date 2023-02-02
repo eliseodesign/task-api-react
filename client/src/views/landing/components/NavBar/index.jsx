@@ -1,7 +1,5 @@
 import useTasks from "@/utils/store/tasksStore";
 import Menu from "./Menu"
-import { useRef } from "react";
-
 const NavBar = () => {
 
   const { modalMenu } = useTasks()
